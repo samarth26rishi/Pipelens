@@ -68,4 +68,3 @@ The simulator takes an **instruction trace file** as input.
 
 ---
 
-###  Example Input File (`input.txt`)
