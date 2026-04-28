@@ -33,17 +33,17 @@ The project is designed for **computer architecture learning**, **performance an
   - Total execution cycles
   - Stall count and distribution
 
-- 🔍 **Bottleneck Analysis**
+-  **Bottleneck Analysis**
   - Identifies slow stages and inefficiencies
   - Helps understand pipeline limitations
 
-- 📄 **Trace-Driven Simulation**
+-  **Trace-Driven Simulation**
   - Accepts structured instruction input files
   - Enables reproducible experiments
 
 ---
 
-## 🏗️ Pipeline Model
+##  Pipeline Model
 
 The simulator uses a standard 5-stage pipeline:
 
@@ -57,15 +57,15 @@ Each instruction progresses through these stages unless stalled due to hazards.
 
 ---
 
-## 📥 Input Format
+##  Input Format
 
 The simulator takes an **instruction trace file** as input.
 
-### 🔹 Supported Instruction Types
+### Supported Instruction Types
 - Arithmetic: `ADD`, `SUB`, `MUL`, `DIV`
 - Memory: `LOAD`, `STORE`
 - Control: `BRANCH`, `JUMP`
 
 ---
 
-### 🔹 Example Input File (`input.txt`)
+###  Example Input File (`input.txt`)
